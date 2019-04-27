@@ -1,1 +1,1 @@
-<?phpecho "hoem";
+<?phpecho "home";

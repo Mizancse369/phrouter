@@ -1,18 +1,21 @@
 {
-    "name": "md.mizan/phprout",
-    "authors": [
-        {
-            "name": "mizan",
-            "email": "mizancse369@gmail.com"
-        }
-    ],
-    "require": {
-        "phroute/phroute": "^2.1",
-        "illuminate/database": "^5.8"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "app/"
-        }
+  "name": "md.mizan/phprout",
+  "authors": [
+    {
+      "name": "mizan",
+      "email": "mizancse369@gmail.com"
     }
+  ],
+  "require": {
+    "phroute/phroute": "^2.1",
+    "illuminate/database": "^5.8"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/functions.php"
+    ]
+  }
 }

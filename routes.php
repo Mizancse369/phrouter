@@ -1,0 +1,1 @@
+<?php$router->controller('/', [\App\Controller\HomeController::class]);$router->get('/login', [\App\Controller\HomeController::class, 'showLogin']);//$router->post('/login', [\App\Controller\HomeController::class, 'processLogin']);//Route::get('/user/create/','UserController@createUser')->name('user.add');
